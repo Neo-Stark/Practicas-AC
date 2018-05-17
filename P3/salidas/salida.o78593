@@ -1,0 +1,60 @@
+Iteracion 0
+Kind:static  chunk:0
+resultado: {-471854080,..., 1887313922}
+0.122431
+Kind:dynamic  chunk:1
+resultado: {-471854080,..., 1887313922}
+0.119868
+Kind:guided  chunk:1
+resultado: {-471854080,..., 1887313922}
+0.134532
+Kind:static  chunk:1
+resultado: {-471854080,..., 1887313922}
+0.120790
+Kind:dynamic  chunk:1
+resultado: {-471854080,..., 1887313922}
+0.119438
+Kind:guided  chunk:1
+resultado: {-471854080,..., 1887313922}
+0.137265
+Kind:static  chunk:64
+resultado: {-471854080,..., 1887313922}
+0.117932
+Kind:dynamic  chunk:64
+resultado: {-471854080,..., 1887313922}
+0.115728
+Kind:guided  chunk:64
+resultado: {-471854080,..., 1887313922}
+0.132850
+
+
+Iteracion 1
+Kind:static  chunk:0
+resultado: {-471854080,..., 1887313922}
+0.120905
+Kind:dynamic  chunk:1
+resultado: {-471854080,..., 1887313922}
+0.119282
+Kind:guided  chunk:1
+resultado: {-471854080,..., 1887313922}
+0.135547
+Kind:static  chunk:1
+resultado: {-471854080,..., 1887313922}
+0.117339
+Kind:dynamic  chunk:1
+resultado: {-471854080,..., 1887313922}
+0.120183
+Kind:guided  chunk:1
+resultado: {-471854080,..., 1887313922}
+0.124000
+Kind:static  chunk:64
+resultado: {-471854080,..., 1887313922}
+0.118248
+Kind:dynamic  chunk:64
+resultado: {-471854080,..., 1887313922}
+0.115995
+Kind:guided  chunk:64
+resultado: {-471854080,..., 1887313922}
+0.136029
+
+

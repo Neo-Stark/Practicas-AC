@@ -1,0 +1,37 @@
+ thread 0 suma a[0]=0 suma=0 
+ thread 0 suma a[1]=1 suma=1 
+ thread 0 suma a[2]=2 suma=3 
+ thread 0 suma a[3]=3 suma=6 
+ thread 0 suma a[4]=4 suma=10 
+ thread 0 suma a[5]=5 suma=15 
+ thread 0 suma a[6]=6 suma=21 
+ thread 0 suma a[7]=7 suma=28 
+ thread 0 suma a[8]=8 suma=36 
+ thread 0 suma a[9]=9 suma=45 
+ thread 0 suma a[10]=10 suma=55 
+ thread 0 suma a[11]=11 suma=66 
+ thread 0 suma a[12]=12 suma=78 
+ thread 0 suma a[13]=13 suma=91 
+ thread 0 suma a[14]=14 suma=105 
+ thread 0 suma a[15]=15 suma=120 
+
+Antes de modificar 0
+ dyn-var:1
+ nthreads-var:2
+ thread-limit-var:2147483647
+ run-sched-var:
+	Kind:static  chunk:4
+ num_threads:1
+ num_procs:4
+ in_parallel:0
+ 
+Despues de modificar
+ dyn-var:0
+ nthreads-var:4
+ thread-limit-var:2147483647
+ run-sched-var:
+	Kind:dynamic  chunk:2
+ num_threads:1
+ num_procs:4
+ in_parallel:0
+ Fuera de 'parallel for' suma=120

@@ -1,0 +1,24 @@
+#! /bin/bash
+
+export OMP_NUM_THREADS=1
+./pmv-OpenMP-a 50000
+printf '\n'
+./pmv-OpenMP-a 25000
+printf '\n'
+printf '\n'
+export OMP_NUM_THREADS=2 
+./pmv-OpenMP-a 50000
+printf '\n'
+./pmv-OpenMP-a 25000
+printf '\n'
+printf '\n'
+export OMP_NUM_THREADS=3
+./pmv-OpenMP-a 50000
+printf '\n'
+./pmv-OpenMP-a 25000
+printf '\n'
+printf '\n'
+export OMP_NUM_THREADS=4 
+./pmv-OpenMP-a 50000
+printf '\n'
+./pmv-OpenMP-a 25000

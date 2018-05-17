@@ -1,0 +1,8 @@
+{
+   "C_Cpp.errorSquiggles": "Disabled",
+   "files.associations": {
+      "*.aiml": "xml",
+      "time.h": "c",
+      "omp.h": "c"
+   }
+}

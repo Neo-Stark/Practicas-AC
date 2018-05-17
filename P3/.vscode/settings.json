@@ -1,0 +1,11 @@
+{
+  "files.associations": {
+    "*.aiml": "xml",
+    "stdlib.h": "c",
+    "stdio.h": "c",
+    "omp.h": "c",
+    "time.h": "c"
+  },
+   "C_Cpp.dimInactiveRegions": false,
+   "C_Cpp.errorSquiggles": "Disabled"
+}

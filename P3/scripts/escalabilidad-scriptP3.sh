@@ -1,0 +1,25 @@
+#! /bin/bash
+
+export OMP_NUM_THREADS=1
+printf "$OMP_NUM_THREADS\n"
+./pmm-OpenMP 750
+printf '\n'
+./pmm-OpenMP 1000
+printf "\n\n"
+export OMP_NUM_THREADS=2 
+printf "$OMP_NUM_THREADS\n"
+./pmm-OpenMP 750
+printf '\n'
+./pmm-OpenMP 1000
+printf "\n\n"
+export OMP_NUM_THREADS=3
+printf "$OMP_NUM_THREADS\n"
+./pmm-OpenMP 750
+printf '\n'
+./pmm-OpenMP 1000
+printf "\n\n"
+export OMP_NUM_THREADS=4 
+printf "$OMP_NUM_THREADS\n"
+./pmm-OpenMP 750
+printf '\n'
+./pmm-OpenMP 1000
